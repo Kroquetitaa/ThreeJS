@@ -1,12 +1,17 @@
-*{
+* {
     margin: 0;
 }
-
-#game-container{
+body {
+    background-image: url('./src/assets/pattern.png');
+}
+#container {
     width: 100%;
     height: 100vh;
 }
-
-canvas{
+#game-container {
+    width: 100%;
+    height: 100%;
+}
+canvas {
     display: block;
 }
